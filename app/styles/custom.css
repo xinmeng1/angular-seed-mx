@@ -1,0 +1,186 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.width-100{
+  width: 100%;
+}
+
+.width-90{
+  width: 90%;
+}
+
+.width-80{
+  width: 80%;
+}
+
+.width-70{
+  width: 70%;
+}
+
+.width-60{
+  width: 60%;
+}
+
+.width-50{
+  width: 50%;
+}
+
+.width-40{
+  width: 40%;
+}
+
+.width-30{
+  width: 30%;
+}
+.width-35-px{
+  width:35px;
+}
+
+.width-20{
+  width: 20%;
+}
+
+.margin-top-40{
+  margin-top:40px;
+}
+.margin-top-30{
+  margin-top:30px;
+}
+.margin-top-20{
+  margin-top:20px;
+}
+.margin-top-10{
+  margin-top:10px;
+}
+.margin-top-5{
+  margin-top: 5px;
+}
+
+.black_bold_20{
+  font-size: 20px;
+  font-family: "Bookman", Georgia, "Times New Roman", serif;
+}
+
+.input-icon > i{
+  margin-top: 15px;
+}
+#navBar{
+  background-color: #0081c2;
+  margin-bottom:0;
+}
+#navBar .navbar-nav > li > span {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  display: block;
+}
+.block{
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.border_bottom_dotted{
+  border-bottom : dashed 1px;
+}
+.template{
+  background-color: rgba(190, 190, 190, 0.29);
+}
+.block .input-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.block .block_title{
+  font-size: 18px;
+}
+.block .document{
+  background: #F7F7F7;
+  border: 1px solid #d1d1d1;
+  margin:10px 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-height: 200px;
+  /*max-height: 200px;*/
+}
+
+.block .button_field{
+  margin:auto;
+  max-width: 80%;
+}
+.block .file_name_field{
+  margin:auto;
+  font-size: 14px;
+  font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+.block .margin-left-30{
+  margin-left: 30px;
+}
+.block .img_field{
+  border-bottom: 1px solid #d1d1d1;
+  margin:auto auto;
+  min-height: 170px;
+  /*max-height: 170px;*/
+}
+.block .add_document{
+  border: 1px solid #d1d1d1;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin:10px 10px;
+  min-height: 200px;
+  /*max-height: 200px;*/
+}
+.block .btn-dashed{
+  opacity: 0.7;
+  border: dashed 1px;
+  background-color: #C8C8C8;
+}
+.block .button_icon{
+  width: 50px;
+}
+.block .button_desc{
+  float:left;
+  padding-left: 10px;
+}
+.no_cursor_href{
+  cursor: default !important;
+  font-size: 12px;font-weight: 400;
+}
+.remove_field{
+  cursor: pointer;
+
+}
+.remove_field :hover {
+  background-color: #d4d4d4;
+}
+
+.margin-left-30{
+  margin-left: 30px;
+}
+.margin-left-0{
+  margin-left: 0px;
+}
+.margin-right-0{
+  margin-right: 0px;
+}
+.signature_modal{
+  overflow: scroll;
+  max-height: 400px;
+}

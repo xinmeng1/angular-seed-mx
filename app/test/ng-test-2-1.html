@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.js"></script>
+</head>
+<body>
+<!--<div ng-controller="MyController">-->
+    <!--<h1>Hello {{ clock }}!</h1>-->
+    <!--<h1>Hello {{ person }}!</h1>-->
+    <!--<h1>Hello {{ person.name }}!</h1>-->
+<!--</div>-->
+<div ng-controller="ParentController">
+    {{person.greeted}}
+    <div ng-controller="ChildController">
+        <a ng-click="sayHello()">Say hello</a>
+    </div>
+    {{ person }}
+</div>
+
+<script type="text/javascript">
+//    function MyController($scope, $timeout) {
+//        $scope.person = {
+//            name: 'Ari Lerner'
+//        };
+//
+//         var updateClock = function () {
+//            $scope.clock = new Date();
+//            $timeout(function () {
+//                updateClock();
+//            }, 1000);
+//        };
+//        updateClock();
+//    };
+    var app = angular.module('app', []);
+    app.controller('ParentController', function($scope) {
+        $scope.person = {greeted: false};
+    });
+    app.controller('ChildController', function($scope) {
+        $scope.sayHello = function() {
+            $scope.person.name = 'Ari Lerner';
+        };
+    });
+</script>
+</body>
+</html>
